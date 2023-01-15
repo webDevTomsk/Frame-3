@@ -137,6 +137,7 @@ a:visited {
 
     .navbar-active {
         display: flex;
+        overflow-y: hidden;
     }
 
     .toggle .line1 {
