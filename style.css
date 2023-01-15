@@ -137,7 +137,21 @@ a:visited {
 
     .navbar-active {
         display: flex;
-        overflow-y: hidden;
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        width: 100%;
+        top: 8vh;
+        background-color: #fff;
+        z-index: 2;
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        row-gap: 40px;
+        font-size: 30px;
+        overflow: hidden;
+        
     }
 
     .toggle .line1 {
